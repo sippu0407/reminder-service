@@ -22,12 +22,7 @@ function startServer(){
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended:true}));
 
-    sendBasicEmail(
-        'project.development.1990@gmail.com',
-        'shalinishipra23@gmail.com',
-        'testing mail by ahhh pata hai na',
-        'ye lo ji ye bhi kar diya apne server se tumko bhej raha hu'
-    )
+    
     console.log(`listioning at ${PORT}`);
   })
 }
